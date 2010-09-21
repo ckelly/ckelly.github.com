@@ -6,6 +6,8 @@ h1. License
 
 All original textual content is licensed under the "Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States License":http://creativecommons.org/licenses/by-nc-nd/3.0/us/.
 
+Portions of this code based on "Alex Payne's blog":http://github.com/al3x/al3x.github.com and the "Jekyll 960 project":http://github.com/btbytes/jekyll_960
+
 All code is licensed under the "Apache License, Version 2.0":http://www.apache.org/licenses/LICENSE-2.0.html, reproduced below:
 
 <blockquote>
