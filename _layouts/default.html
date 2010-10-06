@@ -1,24 +1,47 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-  <head>
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <meta content="en-us" http-equiv="Content-Language" />
-    <meta content="The online home of Chris Kelly" name="description" />
-    <link href="/media/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
-    <!--<link rel="alternate" type="application/atom+xml" title="ckelly.net - Atom" href="http://feeds2.feedburner.com/ckellydotnet" />-->
-    <title>ckelly.net - 2010</title>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.title }}</title>
+  <!--[if IE]>
+    <script src="/js/html5.js" />
+  <![endif]-->
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <meta content="en-us" http-equiv="Content-Language" />
+  <meta content="The online home of Chris Kelly" name="description" />
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="stylesheet" type="text/css" media="screen, projection" charset="utf-8" href="/media/css/screen.css" />
+  <link rel="stylesheet" type="text/css" media="screen, projection" charset="utf-8" href="/media/css/pygments.css" />
+  <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml" />
+  <!--<link rel="alternate" type="application/atom+xml" title="ckelly.net - Atom" href="http://feeds2.feedburner.com/ckellydotnet" />-->
 
-  </head>
-  <body>
-    <div id="wrapper">
-    <header>
-      <h1 id="title">
-        Coming soon - a new ckelly.net
-      </h1>
-    </header>
-      {{ content }}
-      <footer id="footer">
-      </footer>
-    </div>
-  </body>
+{% include analytics.html %}
+</head>
+<body>
+<div id="wrap">
+
+<div class="headerwrap">
+<header class="container_12">
+{% if site.title %}
+  <h1><a href="{{site.url}}">{{site.title}}</a></h1>
+{% endif %}
+</header>
+</div>
+
+<div class="contentwrap">
+<div class="container_12">
+<section class="grid_8 alpha omega">
+{{ content }}
+</section>
+<div class="clear"></div>
+</div>
+</div>
+
+<div class="footerwrap">
+<footer class="container_12">
+</footer>
+</div>
+
+</div>
+</body>
 </html>

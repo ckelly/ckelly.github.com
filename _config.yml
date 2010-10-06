@@ -1,3 +1,10 @@
+# Jekyll Configuration
+
+url: http://0.0.0.0:4000
+title: ckelly.net
+description: The online home of Chris Kelly - includes journal resume and about pages
+author: Chris Kelly
+
 auto: true
 server: true
 server_port: 3000
