@@ -24,13 +24,12 @@ body {
 
 a {
   text-decoration: none;
-  border-bottom: solid 1px #3030a2; }
+  color: #0085bd; }
   a:hover {
-    text-decoration: none;
-    border-bottom: 0; }
-  a:visited {
-    color: black;
-    border-bottom: solid 1px #cccccc; }
+    color: #f78f1e;
+    text-decoration: none; }
+  a:link, a:visited {
+    color: #0085bd; }
 
 h1, h2, h3, h4, h5, h6 {
   color: black; }
@@ -68,20 +67,28 @@ header, footer {
   display: block; }
 
 header {
-  height: 2em;
+  height: 3em;
   font-size: 1.5em;
   padding: 0.3em 0; }
   header h1 {
     margin: 0;
-    line-height: 1.5em; }
-    header h1 a, header h1 a:visited {
+    line-height: 2em; }
+    header h1 a, header h1 a:link, header h1 a:visited {
       color: white;
       text-decoration: none;
       border-bottom: none; }
+  header #summary {
+    font-size: 0.7em;
+    color: #9aaac1; }
+    header #summary a, header #summary a:link, header #summary a:visited {
+      color: white;
+      border-bottom: 1px dotted white; }
+    header #summary a:hover {
+      border-bottom-style: none; }
 
 .contentwrap {
   background-color: #f8f8f8;
-  padding: 1.2em 0; }
+  padding: 0.5em 0; }
 
 footer {
   margin-top: 1em; }

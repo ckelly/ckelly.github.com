@@ -22,15 +22,18 @@
 
 <div class="headerwrap">
 <header class="container_12">
-{% if site.title %}
-  <h1><a href="{{site.url}}">{{site.title}}</a></h1>
-{% endif %}
+  <div class="grid_3 alpha">
+  <h1 id="title"><a href="{{site.url}}">{{site.title}}</a></h1>
+  </div>
+  <div id="summary" class="grid_9 omega">
+    ... is the online home of <a href="{{site.url}}">Chris Kelly</a>. You can read more <a href="/about.html">about me and the site here</a>. You can also <a href="/archives.html">browse the archives</a>, find out about some <a href="/projects.html">projects I've worked on</a>, view <a href="/resume.html">my resume</a>, and <a href="/contact.html">contact me for more information</a>. 
+  </div>
 </header>
 </div>
 
 <div class="contentwrap">
 <div class="container_12">
-<section class="grid_8 alpha omega">
+<section class="grid_10 alpha omega">
 {{ content }}
 </section>
 <div class="clear"></div>
