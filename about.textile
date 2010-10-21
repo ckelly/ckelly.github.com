@@ -1,13 +1,16 @@
 ---
 layout: default
 title: About
+permalink: /about/
 ---
-<div class="post">
+
+h2(#intro). About the author and this site
+
 h1. About Chris Kelly
 
-Born in New Jersey, raised primarily in New Hampshire, with stops in Florida, Puerto Rico, and Connecticut along the way. I attended "Virginia Tech":http://www.vt.edu/, graduating with a degree in Computer Science before moving to Long Island. I never really felt "at home" in New York, so 18 months later, I found myself back in New England, where I reside to this day.
+Born in New Jersey, raised primarily in New Hampshire, with stops in Florida, Puerto Rico, and Connecticut along the way. I attended "Virginia Tech":http://www.vt.edu/, graduating with a degree in Computer Science. After a brief interlude on Long Island, I found myself back in New England, where I reside to this day.
 
-I'm a web developer with over 10 years of experience, revolving around XHTML/ CSS design and development. I love all things web: Books on CSS, Web Frameworks and all the outrageous things people can do with Javascript these days.
+I'm a web application developer with over 10 years of experience, currently focused on Python web services.
 
 In my personal time I enjoy movies, music, snowboarding, and spending time with friends and family.
 
@@ -15,7 +18,7 @@ h1. About ckelly.net
 
 This site had its humble beginnings as a personal home page, sometime in high school in the late 90s. At one time it was hosted on my local ISP server, and later with friends who had their own hosted boxes.
 
-In 2000, I registered this domain and brought over the personal home page as was. Around the same time, I was experimenting with blogging on the now defunct EditThisPage.com. In 2002, with the advent of "Movable Type":http://www.movabletype.org/ as the first popular self-hosted blogging platform, and following a few caffeine-fueled nights in my college dorm, I launched what I consider the official "Version 1" of ckelly.net. In the process of doing so, I wiped out the old static home page and integrated all the Edit This Page posts into Movable Type.
+In 2000, I registered this domain and brought over the personal home page as was. Around the same time, I was experimenting with blogging on the now-defunct EditThisPage.com. In 2002, with the advent of "Movable Type":http://www.movabletype.org/ as the first popular self-hosted blogging platform, and following a few caffeine-fueled nights in my college dorm, I launched what I consider the official "Version 1" of ckelly.net. In the process of doing so, I wiped out the old static home page and integrated all the Edit This Page posts into Movable Type.
 
 The site itself has gone though many incarnations since then. Version 2 was the transition away from Movable Type to "Wordpress":http://wordpress.org/. Version 3 eschewed Wordpress in favor of a from-the-ground-up CMS written in Python and using the "Django":http://www.djangoproject.org/ framework. I later added a blog component through "Tumblr":http://tumblr.com in an effort to facilitate more blogging. This unfortunately didn't go as well as planned. This blog-centric v4 release is geared towards getting me to write in longer-than-140-characters format a little more often. 
 
@@ -33,4 +36,3 @@ I can also be found on these other places on the internet, in case you were curi
 * "Flickr":http://flickr.com/photos/ckelly/
 * "Google Reader":http://www.google.com/reader/shared/11463076114821668995
 
-</div>

@@ -1,4 +1,4 @@
-@import url("960/960.css");
+@import url("960/960_24_col.css");
 
 /* http://www.levien.com/type/myfonts/inconsolata.html */
 @font-face
@@ -27,6 +27,7 @@ $summary-color: #9AAAC1;
 $summary-link-color: #FFF;
 $bg-color: #036;
 $content-bg: #F8F8F8;
+$intro-color: #737373;
 
 body {
   margin: 0;
@@ -39,14 +40,15 @@ body {
 
 a {
   text-decoration: none;
-  color: $link-color;
-  &:hover {
-    color: $link-hover;
-    text-decoration: none;
-  }
+
   &:link, &:visited {
     color: $link-color;
   }
+    
+  &:hover {
+    color: $link-hover;
+  }
+
 }
 
 
@@ -84,6 +86,11 @@ h5, h6{
   font-size: 100%;
 }
 
+h2#intro {
+  color: $intro-color;
+  margin-top: 0.5em;
+}
+
 pre,code
 {
     font-family: "inconsolata", monospace;
@@ -99,6 +106,20 @@ pre,code
 header, footer
 {
   display: block;
+}
+
+
+@mixin blue-links {
+  color: $summary-color;
+  
+  & a, & a:link, & a:visited {
+    color: $summary-link-color;
+    border-bottom: 1px dotted $summary-link-color;
+  }
+  
+  & a:hover {
+    border-bottom-style: none; 
+  }
 }
 
 header {
@@ -118,18 +139,7 @@ header {
   
   & #summary {
     font-size: 0.7em;
-    color: $summary-color;
-  
-    & a, & a:link, & a:visited {
-      color: $summary-link-color;
-      border-bottom: 1px dotted $summary-link-color;
-    }
-    
-    & a:hover {
-      border-bottom-style: none;
-    }
-    
-    
+    @include blue-links;
   }
 }
 
@@ -139,10 +149,29 @@ header {
 }
 
 footer{
-  margin-top:1em;
+  margin: 0;
+  padding: 1em 0;
+  text-align: center;
+  font-size: 0.8em;
+  
+  @include blue-links; 
+  
+  p {
+    margin: 0;
+    line-height: 1.2em;
+  } 
+
 }
 
 ul.posts
 {
   list-style-type: none;
 }
+
+.post {
+  .post_meta {
+    text-align: right;
+  }
+}
+
+@import "resume";

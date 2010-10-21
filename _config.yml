@@ -5,6 +5,8 @@ title: ckelly.net
 description: The online home of Chris Kelly - includes journal resume and about pages
 author: Chris Kelly
 
+permalink: /blog/:year/:month/:day/:title
+
 auto: true
 server: true
 server_port: 3000
