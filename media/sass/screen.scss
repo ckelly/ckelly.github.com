@@ -38,19 +38,21 @@ body {
   line-height: 137.5%; /* 16px * 1.375  = 22px */
 }
 
-a {
-  text-decoration: none;
+@mixin standard-links {
+    a {
+      text-decoration: none;
 
-  &:link, &:visited {
-    color: $link-color;
-  }
+      &:link, &:visited {
+        color: $link-color;
+      }
     
-  &:hover {
-    color: $link-hover;
+      &:hover {
+        color: $link-hover;
+      }
   }
-
 }
 
+@include standard-links;
 
 h1, h2, h3, h4, h5, h6
 {
@@ -169,9 +171,13 @@ ul.posts
 }
 
 .post {
+  border-bottom: 1px solid $intro-color;
+  
   .post_meta {
     text-align: right;
   }
 }
 
 @import "resume";
+
+@import "projects";

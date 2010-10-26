@@ -1,0 +1,69 @@
+/* Projects content */
+
+#github-badge {
+  padding: .2em;
+  background-color: $content-bg;
+  
+  a {
+      background-color: $content-bg;
+  }
+  
+  @include standard-links;
+
+  div.header{
+    margin: 0.7em 0;
+    span {
+      font-size: 1.1em;
+    }  
+  } 
+}
+
+#projects {
+    .projects-list {
+        padding: 0;
+        margin: 0;
+    }
+    
+    h2#intro {
+        margin-bottom: 0;
+    }
+    
+    .project {
+	    list-style-type: none;
+	    display: block;
+	    border-bottom: 1px solid $intro-color;
+    
+        h2 {
+	        margin: 0.7em 0;
+	        font-size: 1.4em;
+        }
+        
+        dl.meta dd {
+        	color: #67695C;
+        	margin: 0;
+        	margin-bottom: 5px;
+        }
+        
+        dl.meta dt {
+        	font-weight: bold;
+        	margin-bottom: 5px;
+        }
+        
+        
+        .description {
+        	line-height:1.3em;
+        }
+        
+    }
+    
+    .main-image {
+    	float: left;
+    	border: 1px solid #003366;
+    	width: 400px;
+    	height: 130px;
+    }
+    
+}
+
+
+/* end projects content */
