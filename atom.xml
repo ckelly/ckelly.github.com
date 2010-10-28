@@ -1,26 +1,29 @@
 ---
 layout: nil
+permalink: /blog/atom.xml
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>{{ site.title }}</title>
-  <link href="{{ site.url }}/atom.xml" rel="self"/>
-  <link href="{{ site.url }}"/>
-  <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>{{ site.url }}</id>
-  {% if site.author || site.email %}
-  <author>
-    <name>{{ site.author }}</name>
-    <email>{{ site.email }}</email>
-  </author>
-  {% endif %}
-  {% for post in site.posts limit:5 %}
-  <entry>
-    <title>{{ post.title }}</title>
-    <link href="{{ site.url }}{{ post.url }}"/>
+ <title>ckelly.net</title>
+ <link href="http://ckelly.net/blog/atom.xml" rel="self"/>
+ <link href="http://ckelly.net/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://ckelly.net/</id>
+ <author>
+   <name>Chris Kelly</name>
+   <email>contact@ckelly.net</email>
+ </author>
+ {% for post in site.posts limit:10 %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="http://ckelly.net{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{ site.url }}{{ post.id }}</id>
+   <id>http://ckelly.net{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
-  </entry>
-  {% endfor %}
+   <author>
+     <name>Chris Kelly</name>
+     <uri>http://ckelly.net/about</uri>
+   </author>
+ </entry>
+ {% endfor %}
 </feed>
