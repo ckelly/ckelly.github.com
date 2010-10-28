@@ -1,0 +1,16 @@
+---
+layout: post
+title: "A fresh (re)start"
+categories: []
+---
+
+h1. {{ page.title }}
+
+I've finally restarted this blog. 
+
+I had moved it to "tumblr":http://tumblr.com with the hopes that the easy-to-post interface would spur me to write more. That didn't have quite the result I was hoping for. So, back to the drawing board.
+
+This go-around, my plan is to make writing something I dedicate time to every week, rather than hope that something inspires me enough to write more than 140 characters.
+
+Along with the renewed focus on writing for this site, I've given it a visual refresh. The styling isn't too different, but it feels cleaner, and also allows for things like code highlighting, one of the topics I'm hoping to write more about in the future.
+ 
