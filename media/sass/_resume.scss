@@ -3,7 +3,7 @@
 $res-padding: 0.3em;
 
 #resume { 
-  h2 { margin-bottom: 0.3em;}
+  h1, h2 { margin-bottom: 0.3em;}
   
   .adr, .email, .linkedin, p {
     padding-left: $res-padding;
