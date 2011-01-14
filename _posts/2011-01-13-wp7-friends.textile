@@ -1,0 +1,58 @@
+---
+layout: post
+title: "Windows Phone 7: Can We Still Be Friends?"
+categories: []
+---
+
+h1. {{ page.title }}
+
+From my "previous post":http://ckelly.net/journal/2010/11/15/windows-phone-7/, I mentioned I was switching to Windows Phone 7. 29 Days later, I headed back to the AT&T store and replaced it with an iPhone 4.
+
+Justin Williams beat me to the punch with a "really great post":http://carpeaqua.com/2011/01/02/from-iphone-to-windows-phone-7/ that echoes many of the sentiments I had about the platform. Be sure to read his post as well. 
+
+h2. What Happened?
+
+I came to the Windows Phone 7 Experience pretty excited. Promises of a new UI paradigm, glance-able information screens and XBox Live integration were all big selling points for me.  
+
+My motivating factor for making the switch was to try something new; I had an out-of-contract iPhone 3G that was getting a little long in the tooth, and I wanted to see what Microsoft was bringing to the table with this new platform. In the month that I had my device (a Samsung Focus) I came away with a mostly positive impression of the hardware and software - it's a good phone and a good OS, but not (yet) a great phone and OS.
+
+h2. The Good
+
+There was a lot to like. On the hardware side, the Super AMOLED screen that Samsung uses for all its newer devices is drop-dead gorgeous. I actually found the dedicated search button to be quite nice as well. I loved the idea of user-expandable memory (in theory anyways, more on that later).
+
+Of course, the software is the main attraction on these phones. I liked the home screen details that some apps like the calendar used. The tile interface actually worked well in my testing/ usage, and the live tile ability was much nicer than the standard iPhone "red number" bubble - a perfect example being something like The Weather Channel tile showing current weather conditions without even having to open the app. I actually really enjoyed the Bing search app, triggered in many cases by the aforementioned dedicated search button - it was something I can say I used that doesn't have any sort of built-in iPhone counterpart.
+
+Another great part of the software was Outlook. Super fast client, fantastic looking, and handled just about everything thrown at it. Though some people clamor for a universal inbox, I liked the separate account management (and associated home screen tiles).
+
+h2. The Bad
+
+The fact that any of the phones at launch ship with only 8GB of memory (and not one phone had over 16GB) is a travesty. The Focus has the option of user-installable memory, but days after release, Microsoft and my provider, AT&T warned against installing any third party memory. The rep I talked to when I bought it made reference to soon-to-be-released patches that would alleviate the issue as well as lists of certified memory cards, but neither have come to fruition nearly 3 months later.
+
+I liked the idea of a dedicated camera button in theory, but in practice (and years of iPhone software button usage) the button didn't feel comfortable at all, and seemed to imply that the only way to really shoot a photo was in landscape mode (this isn't true, but holding the phone to take a picture in portrait mode did not feel "right").
+
+The browser is just not at all up to par compared to iOS and Android. This is on record as having a major update in the future, but it's amazing how big a step back it is browsing on an iPhone then going to a Windows Phone. Part of it is the browser, and of course part of it is a lack of sites optimized for mobile IE, with a prime example being Google services like Reader, which has a fantastic HTML5 interface that just doesn't work with Microsoft's offering.
+
+I don't know what I was thinking ("perhaps things would be different this time"), but the Windows Phone series is tied heavily to Windows and Zune, which makes it difficult to manage and use it from within the Apple ecosystem. Sure there's an OS X connector, but it pales in comparison to the Zune system on Windows, especially if I wanted to do something like use the Zune Pass unlimited features to explore and build out a library.
+
+Then there are personal nitpicks: 
+
+* The back button: I get the idea for it, as nearly every app has this type of behavior, but it's definitely a little odd hitting back until you switch to another app, especially coming from the self-contained app-hood of iOS.
+
+* App switching/ loading performance - switching out of apps and to others seem to have noticeable performance issues, even those that should supposedly be cached. Either apps are getting terminated too quickly, or they're just not great at recovering from a paused state. This is supposedly being remedied in an update very soon. 
+
+* Lack of best practices for using mobile IE - Best example was the Twitter app - I would click a link, and I would switch apps to mobile IE, then I'd hit back to go back into Twitter. There would be a very pronounced load time, then you could go about your business. Of course, the next time you open mobile IE proper, the page you loaded from Twitter will still be present. I would have loved to see them implement a built-in browser instance instead of pushing it out to the proper app. Facebook is a good example of an app that does this, and this is of course how most iOS apps operate, including Twitter's iOS counterpart. i would hope that in the future if any apps need to use a browser view, they do it in the app. 
+
+* Oh how I missed being able to tap the top of the screen to quickly scroll back to the top. 
+
+h2. So Why Go Back?
+
+All in all, as I mentioned, I like the system a lot, and I think it will be a formidable contender in 1-2 years, but right now things just weren't quite right for me when using it on a day-to-day basis, especially coming from an iPhone, even the 3G (the iPhone 4 makes iOS into something completely different and better than the 3G version).
+
+It really was a case of death by a thousand cuts - If it wasn't the slow load/ resume times, it was funny little "V1" bugs like my IMAP mail changes not syncing back to the server in a reasonable amount of time, or people on iPhones emailing me pictures that wouldn't open in Outlook. Even my so-called second tier of apps (such as Instapaper) that I thought wouldn't make a difference to me, I ended up missing immensely. And there was no excitement/ expectation for up and coming apps such as Instagram and 1Password as they may never make it to Windows Phone.
+
+In a nutshell, I had to think when I used the phone, I had to attempt to wait for new features, new apps, promised improvements, and given all that I just wasn't happy with my overall experience. I was an early adopter, and I really didn't want to be one. The payoff would essentially be that one day the phone would be on par with what I previously had, and I realized I was already "emotionally invested":http://daringfireball.net/2010/12/emotional_rescue in the iOS platform and its accompanying Apple/ iTunes infrastructure.
+
+I believe the Windows Phone platform holds a lot of promise, and I'm interested in seeing what direction Microsoft takes things. I'm impressed in how quickly Microsoft built out a very stable and well thought-out platform. It will be very interesting to see how quickly the platform can be iterated, and how soon it can catch up to its major competition
+
+
+
