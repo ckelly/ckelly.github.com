@@ -160,6 +160,11 @@ ul.posts
   .post_meta {
     text-align: right;
   }
+  
+  .imgright {
+      float: right;
+      margin: 0 0 5px 5px;
+  }
 }
 
 @import "resume";
