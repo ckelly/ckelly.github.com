@@ -11,7 +11,7 @@ Portions of this code based on "Alex Payne's blog":http://github.com/al3x/al3x.g
 All code is licensed under the "Apache License, Version 2.0":http://www.apache.org/licenses/LICENSE-2.0.html, reproduced below:
 
 <blockquote>
-Copyright 2010 Chris Kelly
+Copyright 2010-2011 Chris Kelly
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
