@@ -8,7 +8,7 @@ h1. {{ page.title }}
 
 !(imgcenter){{ site.media_url }}/media/images/jim-thome.jpg(Jim Thome)!
 
-If there was any Indians player that I idolized as a kid, it was Jim Thome. I felt a bit of a bond to him, he being a big-time left handed infielder, the kind of hitter that I wanted to be playing baseball in rec leagues and middle/ high school. I used to be able to emulate the swings of almost every player on that team, but Thome's was my favorite. The wide stance, holding the bat out in front until the pitcher started his wind-up and I used to even wear my baseball socks knee-high, the "right way", just like Thome. I even used to take practice swings in my bedroom at night to his World Series home run at-bat.
+If there was any Indians player that I idolized as a kid, it was Jim Thome. I felt a bit of a bond to him, he being a big-time left handed infielder, the kind of hitter that I wanted to be playing baseball in rec leagues and middle/ high school. I used to be able to emulate the swings of almost every player on that team, but Thome's was my favorite. The wide stance, holding the bat out in front until the pitcher started his wind-up, then finishing with a huge swing. I used to wear his number, 25, and of course wore my baseball socks knee-high, the "right way", just like Thome. I even took practice swings in my bedroom at night to his infamous '95 World Series home run at-bat.
 
 <iframe class="imgcenter" width="640" height="510" src="http://www.youtube.com/embed/1Vvu3_kvdm0" frameborder="0" allowfullscreen></iframe>
 
