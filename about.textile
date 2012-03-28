@@ -8,7 +8,7 @@ h2(#intro). About the author and this site
 
 h1. About Chris Kelly
 
-Born in New Jersey, raised primarily in New Hampshire, with stops in Florida, Puerto Rico, and Connecticut along the way. I attended "Virginia Tech":http://www.vt.edu/, graduating with a degree in Computer Science. After a brief interlude on Long Island, I found myself back in New England, where I reside to this day.
+Born in New Jersey, raised primarily in New Hampshire, with stops in Florida, Puerto Rico, and Connecticut along the way. I attended "Virginia Tech":http://www.vt.edu/, graduating with a degree in Computer Science. After a brief interlude on Long Island, I found myself back in New England, where I lived for about 7 years, before trying out life on the West Coast. I currently live in San Francisco.
 
 I'm a web application developer with over 10 years of experience, currently focused on Python web services.
 
@@ -34,5 +34,4 @@ I can also be found on these other places on the internet, in case you were curi
 * "Pinboard":http://pinboard.in/u:ckelly/
 * "Twitter":http://twitter.com/ckelly
 * "Flickr":http://flickr.com/photos/ckelly/
-* "Google Reader":http://www.google.com/reader/shared/11463076114821668995
 
