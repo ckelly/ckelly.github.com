@@ -8,7 +8,7 @@ h2(#intro). About the author and this site
 
 h1. About Chris Kelly
 
-Born in New Jersey, raised primarily in New Hampshire, with stops in Florida, Puerto Rico, and Connecticut along the way. I attended "Virginia Tech":http://www.vt.edu/, graduating with a degree in Computer Science. After a brief interlude on Long Island, I found myself back in New England, where I lived for about 7 years, before trying out life on the West Coast. I currently live in San Francisco.
+Born in New Jersey, raised primarily in New Hampshire, with stops in Florida, Puerto Rico, and Connecticut along the way. I attended "Virginia Tech":http://www.vt.edu/, graduating with a degree in Computer Science. I am based in New England, with brief stops on Long Island and San Francisco. I currently live in the Boston area.
 
 I'm a web application developer with over 10 years of experience, currently focused on Python web services.
 
@@ -20,7 +20,7 @@ This site had its humble beginnings as a personal home page, sometime in high sc
 
 In 2000, I registered this domain and brought over the personal home page as was. Around the same time, I was experimenting with blogging on the now-defunct EditThisPage.com. In 2002, with the advent of "Movable Type":http://www.movabletype.org/ as the first popular self-hosted blogging platform, and following a few caffeine-fueled nights in my college dorm, I launched what I consider the official "Version 1" of ckelly.net. In the process of doing so, I wiped out the old static home page and integrated all the Edit This Page posts into Movable Type.
 
-The site itself has gone though many incarnations since then. Version 2 was the transition away from Movable Type to "Wordpress":http://wordpress.org/. Version 3 eschewed Wordpress in favor of a from-the-ground-up CMS written in Python and using the "Django":http://www.djangoproject.org/ framework. I later added a blog component through "Tumblr":http://tumblr.com in an effort to facilitate more blogging. This unfortunately didn't go as well as planned. This blog-centric v4 release is geared towards getting me to write in longer-than-140-characters format a little more often. 
+The site itself has gone though many incarnations since then. Version 2 was the transition away from Movable Type to "Wordpress":http://wordpress.org/. Version 3 eschewed Wordpress in favor of a from-the-ground-up CMS written in Python and using the "Django":http://www.djangoproject.org/ framework. I later added a blog component through "Tumblr":http://tumblr.com in an effort to facilitate more blogging. This unfortunately didn't go as well as planned. This blog-centric v4 release is geared towards getting me to write in longer-than-140-characters format a little more often.
 
 Always looking for something new to play with, Version 4 of the site is hosted on "GitHub":http://github.com using the "Pages":http://github.com/blog/272-github-pages feature and the "Jekyll":http://github.com/mojombo/jekyll/tree/master static site generation system.
 
