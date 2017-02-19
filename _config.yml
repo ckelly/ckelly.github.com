@@ -8,7 +8,7 @@ author: Chris Kelly
 
 permalink: /:title
 
-highlighter: true
+highlighter: 'rouge'
 lsi: true
 
 gems:
