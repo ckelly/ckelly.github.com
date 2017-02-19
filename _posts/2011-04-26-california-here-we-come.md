@@ -4,7 +4,8 @@ title: "California, Here We Come"
 categories: []
 ---
 
-h1. {{ page.title }}
+{{ page.title }}
+================
 
 <a href="http://www.flickr.com/photos/craighudsonphoto/8264780088/" title="The Golden Gate at Dusk by Craig Hudson Photography, on Flickr"><img src="http://farm9.staticflickr.com/8079/8264780088_6d3484465d_c.jpg" width="790" height="207" alt="The Golden Gate at Dusk"></a>
 It's official. We're moving to San Francisco.
