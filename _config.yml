@@ -10,3 +10,6 @@ permalink: /:title
 
 highlighter: true
 lsi: true
+
+gems:
+- jekyll-sitemap
