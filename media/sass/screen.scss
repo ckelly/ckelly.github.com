@@ -27,7 +27,7 @@ body {
       &:link, &:visited {
         color: $link-color;
       }
-    
+
       &:hover {
         color: $link-hover;
       }
@@ -97,14 +97,14 @@ header, footer
 
 @mixin blue-links {
   color: $summary-color;
-  
+
   & a, & a:link, & a:visited {
     color: $summary-link-color;
     border-bottom: 1px dotted $summary-link-color;
   }
-  
+
   & a:hover {
-    border-bottom-style: none; 
+    border-bottom-style: none;
   }
 }
 
@@ -122,7 +122,7 @@ header {
         border-bottom: none;
     }
   }
-  
+
   & #summary {
     font-size: 0.7em;
     @include blue-links;
@@ -139,28 +139,31 @@ footer{
   padding: 1em 0;
   text-align: center;
   font-size: 0.8em;
-  
-  @include blue-links; 
-  
+
+  @include blue-links;
+
   p {
     margin: 0;
     line-height: 1.2em;
-  } 
+  }
 
 }
 
-ul.posts
-{
+ul.posts {
   list-style-type: none;
 }
 
 .post {
   border-bottom: 1px solid $intro-color;
-  
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
   .post_meta {
     text-align: right;
   }
-  
+
   .imgright {
       float: right;
       margin: 0 0 5px 5px;
@@ -169,6 +172,20 @@ ul.posts
   .imgcenter {
       display: block;
       margin: 0 auto;
+  }
+
+  img {
+    display: block;
+    max-width: 100% !important;
+    max-height: 500px;
+    height: auto !important;
+    width: auto !important;
+    margin: 0 auto;
+    padding: 0.6em 0
+  }
+
+  a img {
+    border: none;
   }
 
 }
