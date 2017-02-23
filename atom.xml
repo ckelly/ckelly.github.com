@@ -1,11 +1,11 @@
 ---
 layout: null
-permalink: /journal/atom.xml
+permalink: /atom.xml
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  <title>ckelly.net</title>
- <link href="http://ckelly.net/journal/atom.xml" rel="self"/>
+ <link href="http://ckelly.net/atom.xml" rel="self"/>
  <link href="http://ckelly.net/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://ckelly.net/</id>
