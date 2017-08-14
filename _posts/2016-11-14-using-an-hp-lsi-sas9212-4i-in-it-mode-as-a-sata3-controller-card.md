@@ -7,7 +7,7 @@ categories: ["computers", "diy", "upgrades", "ssd"]
 {{ page.title }}
 ================
 
-Continuing from my [last post](/upgrading-an-intel-x58-gaming-system-to-ssd), I was able to join modern times by adding an SSD to my circa-2011 gaming system. The performance improvements have been fantastic and I couldn't be happier with the decision to upgrade.
+Continuing from my [last post](/upgrading-an-intel-X58-gaming-system-to-ssd), I was able to join modern times by adding an SSD to my circa-2011 gaming system. The performance improvements have been fantastic and I couldn't be happier with the decision to upgrade.
 
 That said, there was a bit more room for improvement when it came to the SSD upgrade. My X58 motherboard had a subpar third party SATA3 chipset which was known to cause stability issues in exchange for a suboptimal performance improvement. Most discussion threads determined it was not worth using, and one would be better off disabling the feature altogether and sticking with the built in Intel SATA2 controller. Up to this point, I had decided to follow that advice.
 
