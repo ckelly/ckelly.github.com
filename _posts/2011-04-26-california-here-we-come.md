@@ -7,7 +7,7 @@ categories: []
 {{ page.title }}
 ================
 
-<a href="http://www.flickr.com/photos/craighudsonphoto/8264780088/" title="The Golden Gate at Dusk by Craig Hudson Photography, on Flickr"><img src="http://farm9.staticflickr.com/8079/8264780088_6d3484465d_c.jpg" width="790" height="207" alt="The Golden Gate at Dusk"></a>
+<a href="https://www.flickr.com/photos/craighudsonphoto/8264780088/" title="The Golden Gate at Dusk by Craig Hudson Photography, on Flickr"><img src="http://farm9.staticflickr.com/8079/8264780088_6d3484465d_c.jpg" width="790" height="207" alt="The Golden Gate at Dusk"></a>
 It's official. We're moving to San Francisco.
 
 This will be by far the biggest change either of us has ever made. Though I've lived in places as exotic as Puerto Rico, I've always been an "East Coaster", spending many of my formative years in New Hampshire, and the last 7+ years in the greater Boston area. I've always had an itch to move to the West coast, but the timing never seemed right, there was always something stopping us - a new job, losing a job, sick pets - something that kept us right where we were.
