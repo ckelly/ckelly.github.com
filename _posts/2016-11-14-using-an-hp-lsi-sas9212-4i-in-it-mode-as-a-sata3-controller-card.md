@@ -38,7 +38,9 @@ To accomplish this, I used a combination of instructions from [nguvu](https://ng
 
 2) Copy basic firmware installation bits to the USB (I used the base version of the tools found on the FreeNAS forums [here](https://forums.freenas.org/index.php?threads/hp-sas92124i.30412/) ([direct link](http://www.mediafire.com/download/9i8c85u4iuanf9h/HP_92124i_IT_FW_P16.zip)).
 
-3) Download the most up-to-date version of the card firmware (v20 as of this writing) [found here](http://www.avagotech.com/products/storage/host-bus-adapters/sas-9212-4i4e#downloads). I downloaded the package "9212-4i4e_Package_P20_IR_IT_FW_BIOS_for_MSDOS_Windows".
+3) Download the most up-to-date version of the card firmware (v20 as of this writing) ~~[found here](http://www.avagotech.com/products/storage/host-bus-adapters/sas-9212-4i4e#downloads). I downloaded the package "9212-4i4e_Package_P20_IR_IT_FW_BIOS_for_MSDOS_Windows".~~
+
+**UPDATE** - It appears LSI was purchased by Broadcom, and the old links were removed. I was able to find the P20 release on their new site. you can download it [here](https://docs.broadcom.com/docs/9212_4i4e_Package_P20_IR_IT_FW_BIOS_for_MSDOS_Windows.zip)
 
 4) Copy the proper firmware onto the USB. I used the "214i4et.bin" firmware in the "HBA_9212_4i4e_IT" folder as well as the "mptsas2.rom" file in the "sasbios_rel" directory. Both were copied to the root of the USB stick.
 
