@@ -30,7 +30,7 @@ LSI 9212-4i, after adding fan:
 
 ![lsi-9212-4i-2-](/media/images/lsi-9212-4i-2-700.jpg "LSI 9212-4i card with attached cooling fan")
 
-Once the fan was added and the card installed (NOTE: be sure to record the adapter address, which is on a label on the back of the card and starts with , it was time to flash the ROM into Target mode to allow booting from any devices attached.
+Once the fan was added and the card installed (NOTE: be sure to record the adapter address, which is on a label on the back of the card and starts with <strong>500605b0XXXXXXXX</strong>), it was time to flash the ROM into Target mode to allow booting from any devices attached.
 
 To accomplish this, I used a combination of instructions from [nguvu](https://nguvu.org/freenas/Convert-LSI-HBA-card-to-IT-mode/) and the [FreeNAS forums](https://forums.freenas.org/index.php?threads/hp-sas92124i.30412/):
 
