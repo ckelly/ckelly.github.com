@@ -3,7 +3,7 @@ body {
   margin: 0;
   color: #333;
   background-color: #036;
-  font-family: helvetica, arial, sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-size: 87.5%;
   /* 16px * 0.875 = 14px */
   line-height: 137.5%;
@@ -20,11 +20,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #000; }
 
 h1, h2, h3 {
-  font-family: "Droid Sans", helvetica, arial, sans-serif;
   font-weight: normal; }
 
 h4, h5, h6 {
-  font-family: "Droid Sans", helvetica, arial, sans-serif;
   font-weight: bold; }
 
 h1 {

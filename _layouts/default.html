@@ -12,13 +12,10 @@
   <link rel="shortcut icon" type="image/x-icon" href="/media/images/favicon.ico" />
   <link rel="apple-touch-icon" href="/media/images/apple-touch-icon.png">
 
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Droid+Sans:regular,bold|Inconsolata">
-
-  <link rel="stylesheet" type="text/css" media="screen, projection" charset="utf-8" href="/media/css/screen.css?i=08262011" />
+  <link rel="stylesheet" type="text/css" media="screen, projection" charset="utf-8" href="/media/css/screen.css?i=1202019" />
   <link rel="stylesheet" type="text/css" media="screen, projection" charset="utf-8" href="/media/css/pygments.css" />
-  <link rel="alternate" type="application/atom+xml" title="ckelly.net - Journal Feed" href="http://feeds.feedburner.com/CkellyDotNetJournal" />
+  <link rel="alternate" type="application/atom+xml" title="ckelly.net - Journal Feed" href="/atom.xml" />
 
-{% include analytics.html %}
 </head>
 <body{% if page.section %} id="{{ page.section }}"{% endif %}>
 <div id="wrap">
@@ -45,7 +42,7 @@
 <footer class="grid_20 prefix_2 suffix_2">
     <p>Copyright &#169; 2001-{{ site.time | date: '%Y' }} Chris Kelly.</p>
     <p>Powered by <a href="http://pages.github.com/">GitHib Pages</a>.</p>
-    <p><a href="http://feeds.feedburner.com/CkellyDotNetJournal" title="Journal feed">Journal Feed</a></p>
+    <p><a href="/atom.xml" title="Journal feed">Journal Feed</a></p>
 </footer>
 </div>
 
