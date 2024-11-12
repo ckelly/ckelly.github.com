@@ -4,7 +4,6 @@
   "name": "Ruby 3",
   "dockerFile": "Dockerfile",
 
-
   "customizations": {
       "vscode": {
           "settings": {
